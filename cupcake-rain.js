@@ -27,8 +27,8 @@ function addCupcakes() {
   cupcakeImg.style.background = "transparent";
 
   // Set the size of the Cupcake image
-  cupcakeImg.style.width = "95px";
-  cupcakeImg.style.height = "95px";
+  cupcakeImg.style.width = "85px";
+  cupcakeImg.style.height = "85px";
 
   // Generate a random x-coordinate for the Cupcake to fall from
   const x = Math.random() * window.innerWidth;
@@ -86,7 +86,7 @@ function addCupcakes() {
 }
 
 CupcakeRainBtn.addEventListener("click", () => {
-  for (let i = 0; i < 200   ; i++) {
+  for (let i = 0; i < 150   ; i++) {
     addCupcakes();
   }
 });
